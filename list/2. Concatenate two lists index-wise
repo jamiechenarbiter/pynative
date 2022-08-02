@@ -1,0 +1,19 @@
+input  
+list1 = ["M", "na", "i", "Ke"]  
+list2 = ["y", "me", "s", "lly"]  
+output  
+['My', 'name', 'is', 'Kelly']  
+
+---
+
+```python
+list1 = ["M", "na", "i", "Ke"]
+list2 = ["y", "me", "s", "lly"]
+a=[]
+for i in range(len(list1)):
+    a.append(list1[i]+list2[i])
+    
+print(a)
+```
+
+
